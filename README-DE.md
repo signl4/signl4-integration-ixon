@@ -41,7 +41,7 @@ In unserem Beispiel benutzen wir den IXagent, einen Software-Agent für die IXON
 
 SIGNL4 ist eine mobile App mit der Teams schneller und effektiver auf kritische Alarme, technische Störungen und dringende Service-Aufträge reagieren können. Holen Sie sich die App unter https://www.signl4.com.
 
-![IXON Router](ixon-router.jpg)
+![IXON Router](ixon-router.png)
 
 ### Voraussetzungen
 
@@ -72,14 +72,6 @@ Fügen Sie in der IXON-Plattform unter Messages -> Settings -> Webhooks einen ne
 Um die Daten-Quelle hinzuzufügen, können Sie in Ihr Device gehen, dann auf den Tab Services, wo Sie einen neuen Service hinzufügen können. Geben Sie einen Namen und eine IP-Adresse ein (diese kann zufällig sein, aber Sie benötigen die IP-Adresse später). Fügen Sie eine Data Source mit dem Protokoll LoggerAPI und einem Passwort hinzu (Sie benötigen das Passwort später).
 
 Bitte beachten Sie, dass dieser Schritt je nach Agent unterschiedlich sein kann.
-
-
-
-
-
-
-
-
 
 5. Testen  
 

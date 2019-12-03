@@ -40,7 +40,7 @@ In our example we use the IXagent, the software agent for IXON Cloud, to simulat
 
 SIGNL4 is a mobile alert notification app for powerful alerting, alert management and mobile assignment of work items. Get the app at https://www.signl4.com.
 
-![IXON Router](ixon-router.jpg)
+![IXON Router](ixon-router.png)
 
 ### Prerequisites
 
