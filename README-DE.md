@@ -35,7 +35,7 @@ Alles, was für die Verknüpfung von Particle mit IXON nötig ist, ist eine Webh
 
 ## Und so funktioniert es
 
-### Integration von SIGNL4 mit IXON
+### Integration von SIGNL4 mit IXON Cloud
 
 In unserem Beispiel benutzen wir den IXagent, einen Software-Agent für die IXON Cloud Plattform, um Temperatur-Daten zu simulieren. Wenn die Temperatur zu hoch ist, senden wir einen Alarm an unser SIGNL4-Team. Sie können jedoch auch einen IXrouter, IXONs Edge-Gateway verwenden.
 

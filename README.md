@@ -34,7 +34,7 @@ All it takes to pair IXON and SIGNL4 is a webhook in your IXON Cloud platform th
 
 ## How To Integrate
 
-### Integrating SIGNL4 with IXON
+### Integrating SIGNL4 with IXON Cloud
 
 In our example we use the IXagent, the software agent for IXON Cloud, to simulate temperature data. When the temperature is too high we send an alert to our SIGNL4 team. You can use an IXrouter, IXON's edge gateway as well.
 
