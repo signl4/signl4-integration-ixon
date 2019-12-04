@@ -1,6 +1,6 @@
-# Mobile Alarmierung per App, SMS und Anruf für IXON
+# Mobile Alarmierung per App, SMS und Anruf für IXON Cloud
 
-Mobile Alarmierung mit Tracking, Bereitschafts-Planung und Eskalation für IXON.
+Mobile Alarmierung mit Tracking, Bereitschafts-Planung und Eskalation für IXON Cloud.
 
 ## Warum SIGNL4
 
@@ -37,33 +37,33 @@ Alles, was für die Verknüpfung von Particle mit IXON nötig ist, ist eine Webh
 
 ### Integration von SIGNL4 mit IXON
 
-In unserem Beispiel benutzen wir den IXagent, einen Software-Agent für die IXON-Cloud, um Temperatur-Daten zu simulieren. Wenn die Temperatur zu hoch ist, senden wir einen Alarm an unser SIGNL4-Team. Sie können jedoch auch einen IXON-Router verwenden.
+In unserem Beispiel benutzen wir den IXagent, einen Software-Agent für die IXON Cloud Plattform, um Temperatur-Daten zu simulieren. Wenn die Temperatur zu hoch ist, senden wir einen Alarm an unser SIGNL4-Team. Sie können jedoch auch einen IXrouter, IXONs Edge-Gateway verwenden.
 
 SIGNL4 ist eine mobile App mit der Teams schneller und effektiver auf kritische Alarme, technische Störungen und dringende Service-Aufträge reagieren können. Holen Sie sich die App unter https://www.signl4.com.
 
-![IXON Router](ixon-router.png)
+![IXrouter](ixon-router.png)
 
 ### Voraussetzungen
 
 Ein SIGNL4-Konto (https://www.signl4.com)
 
-Ein IXON-Konto (https://www.ixon.cloud)
+Ein IXON Cloud Konto (https://www.ixon.cloud)
 
-Einen IXON-Router oder IXagent (https://www.ixon.cloud/iiot-platform/connectivity-products/ixagent-embedded-agent)
+Einen IXrouter (https://www.ixon.cloud/iiot-platform/connectivity-products/ixrouter-edge-gateway) oder IXagent (https://www.ixon.cloud/iiot-platform/connectivity-products/ixagent-embedded-agent)
 
 #### Integrations-Schritte
 
 1. Gerät Verbinden  
 
-Zuerst müssen Sie Ihr Gerät mit der IXON-Cloud verbinden. Dies kann der physische IXON Router oder der embedded IXagent (Software) sein. In unserem Beispiel verwenden wir letzteres und Sie können den Installer sowie eine Beschreibung des Agents hier anfordern: https://www.ixon.cloud/iiot-platform/connectivity-products/ixagent-embedded-agent.
+Zuerst müssen Sie Ihr Gerät mit der IXON-Cloud verbinden. Dies kann der physische IXrouter oder der embedded IXagent (Software) sein. In unserem Beispiel verwenden wir letzteres und Sie können den Installer sowie eine Beschreibung des Agents hier anfordern: https://www.ixon.cloud/iiot-platform/connectivity-products/ixagent-embedded-agent.
 
-Sobald Sie Ihr Gerät verbunden haben, erscheint es in Ihrer IXON-Plattform.
+Sobald Sie Ihr Gerät verbunden haben, erscheint es in Ihrer IXON Cloud Plattform.
 
 ![IXON Devices](ixon-devices.png)
 
 2. Webhook Konfigurieren  
 
-Fügen Sie in der IXON-Plattform unter Messages -> Settings -> Webhooks einen neuen Webhook hinzu. Sie müssen hier lediglich Ihre SIGNL4 Webhook-URL mit Ihrem Team-Geheimnis konfigurieren.
+Fügen Sie in der IXON Cloud Plattform unter Messages -> Settings -> Webhooks einen neuen Webhook hinzu. Sie müssen hier lediglich Ihre SIGNL4 Webhook-URL mit Ihrem Team-Geheimnis konfigurieren.
 
 ![IXON Webhook](ixon-webhook.png)
 

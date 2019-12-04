@@ -1,6 +1,6 @@
-# Mobile alerting with tracking & escalation for IXON
+# Mobile alerting with tracking & escalation for IXON Cloud
 
-Mobile alerting with tracking, duty planning and escalation for IXON.
+Mobile alerting with tracking, duty planning and escalation for IXON Cloud.
 
 ## Why SIGNL4
 
@@ -10,7 +10,7 @@ IXON is an all-in-one solution for seamless integration between cloud, edge conn
 
 ## How it Works
 
-All it takes to pair IXON and SIGNL4 is a webhook in your IXON platform that is triggered each time a relevant message appears. This will send the respective data to SIGNL4 and thus to alert the responsible team.
+All it takes to pair IXON and SIGNL4 is a webhook in your IXON Cloud platform that is triggered each time a relevant message appears. This will send the respective data to SIGNL4 and thus to alert the responsible team.
 
 ## Integration Capabilities
 
@@ -36,33 +36,33 @@ All it takes to pair IXON and SIGNL4 is a webhook in your IXON platform that is 
 
 ### Integrating SIGNL4 with IXON
 
-In our example we use the IXagent, the software agent for IXON Cloud, to simulate temperature data. When the temperature is too high we send an alert to our SIGNL4 team. You can use an IXON Router as well.
+In our example we use the IXagent, the software agent for IXON Cloud, to simulate temperature data. When the temperature is too high we send an alert to our SIGNL4 team. You can use an IXrouter, IXON's edge gateway as well.
 
 SIGNL4 is a mobile alert notification app for powerful alerting, alert management and mobile assignment of work items. Get the app at https://www.signl4.com.
 
-![IXON Router](ixon-router.png)
+![IXrouter](ixon-router.png)
 
 ### Prerequisites
 
-A SIGNL4 (https://www.signl4.com) account
+A SIGNL4 account (https://www.signl4.com)
 
-An IXON (https://www.ixon.cloud) account
+An IXON Cloud account (https://www.ixon.cloud)
 
-An IXON Router or IXagent (https://www.ixon.cloud/iiot-platform/connectivity-products/ixagent-embedded-agent)
+An IXrouter (https://www.ixon.cloud/iiot-platform/connectivity-products/ixrouter-edge-gateway) or IXagent (https://www.ixon.cloud/iiot-platform/connectivity-products/ixagent-embedded-agent)
 
 #### Integration Steps
 
 1. Connect the Device  
 
-First of all you need to connect your device to the IXON Cloud. This can be the physical IXON Router or the embedded IXagent which is software. In our example we use the latter one and you can request the installer as well as a description on how to connect it here: https://www.ixon.cloud/iiot-platform/connectivity-products/ixagent-embedded-agent.
+First of all you need to connect your device to the IXON Cloud. This can be the physical IXrouter or the embedded IXagent which is software. In our example we use the latter one and you can request the installer as well as a description on how to connect it here: https://www.ixon.cloud/iiot-platform/connectivity-products/ixagent-embedded-agent.
 
-Once you have connected your device it will appear in your IXON platform.
+Once you have connected your device it will appear in your IXON Cloud platform.
 
 ![IXON Devices](ixon-devices.png)
 
 2. Configure the Webhook  
 
-In the IXON platform under Messages -> Settings -> Webhooks add a new webhook. You just need to configure your SIGNL4 webhook URL including your team secret here.
+In the IXON Cloud platform under Messages -> Settings -> Webhooks add a new webhook. You just need to configure your SIGNL4 webhook URL including your team secret here.
 
 ![IXON Webhook](ixon-webhook.png)
 
@@ -70,7 +70,7 @@ In the IXON platform under Messages -> Settings -> Webhooks add a new webhook. Y
 
 In order  to add the data source you can go to your device, then to the Services tab and add a new service. Enter a name and IP address (can be random but you will need the IP address later). Add a data source with protocol LoggerAPI and a password (you will need the password later).
 
-Please note that this step might differ depending depending on the agent.
+Please note that this step might differ depending on the agent.
 
 4. Configure Cloud Notify  
 
