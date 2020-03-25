@@ -11,7 +11,7 @@ IXON ist eine All-in-One-Lösung für die nahtlose Integration zwischen Cloud, E
 
 ## So funktioniert es
 
-Alles, was für die Verknüpfung von Particle mit IXON nötig ist, ist eine Webhook in Ihrem IXON-Portal der durch relevante Messages ausgelöst wird. Dies ermöglicht die Übertragung der Daten an SIGNL4 und somit die Alarmierung Ihres SIGNL4-Teams.
+Alles, was für die Verknüpfung von IXON mit SIGNL4 nötig ist, ist eine Webhook in Ihrem IXON-Portal der durch relevante Messages ausgelöst wird. Dies ermöglicht die Übertragung der Daten an SIGNL4 und somit die Alarmierung Ihres SIGNL4-Teams.
 
 ## Integration
 
